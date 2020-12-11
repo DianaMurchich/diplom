@@ -97,11 +97,15 @@ ul {
     justify-content: flex-start;
 }
 .submenu{
-    opacity: 0;
-
+    position: relative;
+    height: 500px;
+    background: white;
 }
-.submenu:href{
-    opacity: 1;
+ul.submenu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid black;
 }
 
 ul li a {
@@ -111,8 +115,7 @@ ul li a {
     text-decoration: none;
     font-size: 20px;
 }
-
-/* .fon { */
+.fon { 
     background-image: url(fon.jpg);
     height: 600px;
     border: 1px solid #fff;
