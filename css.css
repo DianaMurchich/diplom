@@ -3,29 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-.fon{
-    background-image: url(fon.jpg);
-    height: 600px;
-    border: 1px solid #fff;
-}
-.conteiner {
+.site {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 1200px;
     margin: 0 auto;
 }
-
-.nav_menu {
+.shapka{
+    position: sticky;
+    top: 0;
     width: 100%;
     height: 100px;
+    text-align: center;
 }
 
-.contayner {
-    width: 80%;
-    height: 100%;
+.container {
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
 }
 
 .blok {
@@ -87,44 +82,76 @@
     padding: 5px;
     font-size: 15px;
 }
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.cont{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav_menu {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    z-index: 1000;
+}
+.topmenu {
+    width: 1200px;
+    height: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-}
-.submenu{
-    position: relative;
-    height: 500px;
-    background: white; 
+    justify-content: space-evenly;
+    align-items: center;
 
-    
 }
-ul.submenu{
+/* .rty{
+   width: 100%;
+   height: 1px;
+   background: #777777; 
+} */
+/* .rty:hover .topmenu>li{
+    border-top: 6px solid #c14679;
+} */
+
+.show {
+    flex-basis: 14%;
+    margin: 0 0 0 20px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.show a {
+    color: black;
+    text-decoration: none;
+}
+
+.submenu {
+    display: none;
+    text-transform: uppercase;
+    opacity: 0;
+    background-color: white;
+    list-style: none;
+}
+
+.show:hover .submenu {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border: 1px solid black;
+    position: absolute;
+    opacity: 1;
+    z-index: 1000;
 }
-
-ul li a {
-    color: black;
-    padding: 0 30px;
-    line-height: 100px;
-    text-decoration: none;
-    font-size: 20px;
+.show:hover .submenu li{
+    padding: 15px 25px;
 }
-.fon { 
+.fon {
     background-image: url(fon.jpg);
     height: 600px;
     border: 1px solid #fff;
 }
 
 .poz {
-    width: 80%;
+    width: 1200px;
     height: 600px;
     margin: 0 auto;
     border: 1pz solid #fff;
@@ -177,6 +204,7 @@ ul li a {
 }
 
 .fon2 {
+    position: relative;
     width: 1100px;
     height: 500px;
     background-image: url(fon2.jpg);
@@ -186,6 +214,7 @@ ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* z-index: -1; */
 }
 
 .otst {
@@ -217,4 +246,167 @@ a.btn {
     background: #c14679;
     color: white;
     text-align: center;
+}
+.sagolovok{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+    font-size: 50px;
+}
+.offer{
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+    width: 1200px;
+}
+.vbn{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 0 0;
+    border: 1px solid #000;
+    height: 400px;
+}
+.rama{
+    border: 15px solid #f3f7f8;   
+}
+.txt{
+    text-align: center;
+    text-transform: uppercase;
+}
+.we_offer{
+    text-align: center;
+}
+.fon3{
+    background-image: url(fon5.jpg);
+    height: 600px;
+    width: 100%;
+    border: 1px solid white;
+}
+.fon3 h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0;
+    font-size: 50px;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fon_product{
+    background: white;
+    width: 250px;
+    margin: 0 20px 0 0;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fon_product h3{
+    text-transform: uppercase;
+    margin: 25px 0;
+    font-size: 16px;
+}
+.fon_product p{
+    color: #c14679;
+    font-size: 16px;
+}
+.section{
+    display: grid;
+    grid-template-areas: 
+        'left logo img logo2 right'
+        'left2 logo img logo2 right2'
+        'left3 logo3 img logo23 right3'
+        'lef4 logo3 img logo23 right4';
+    border: 2px solid black;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
+}
+.about_us{
+    color: #c14679;
+    text-transform: uppercase;
+    font-size: 20px;
+    grid-area: left;
+    height: 50px;
+    width: 300px;
+}
+.about_us2{
+    color: #c14679;
+    text-transform: uppercase;
+    font-size: 20px;
+    grid-area: left3;
+    height: 50px;
+    width: 300px;
+}
+.about_us3{
+    color: #c14679;
+    text-transform: uppercase;
+    font-size: 20px;
+    grid-area: right;
+    height: 50px;
+    width: 300px;
+
+}
+.about_us4{
+    color: #c14679;
+    text-transform: uppercase;
+    font-size: 20px;
+    grid-area: right3;
+    height: 50px;
+    width: 300px;
+}
+.us{
+    color: #777777;
+    grid-area: left2;
+    height: 150px;
+    width: 300px;
+}
+.us2{
+    color: #777777;
+    grid-area: left4;
+    height: 150px;
+    width: 300px;
+}
+.us3{
+    color: #777777;
+    grid-area: right2;
+    height: 150px;
+    width: 300px;
+}
+.us4{
+    color: #777777;
+    grid-area: right4;
+    height: 150px;
+    width: 300px;
+}
+.logo{
+    grid-area: logo;
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    justify-self: center;
+}
+.logo2{
+    grid-area: logo3;
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+}
+.logo3{
+    grid-area: logo2;
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+}
+.logo4{
+    grid-area: logo23;
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+}
+.strawberry{
+    grid-area: img2;
+    border: 2px solid black;
 }
