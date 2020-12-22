@@ -3,17 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .site {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 1200px;
     margin: 0 auto;
 }
-.shapka{
+
+.shapka {
     position: sticky;
     top: 0;
     width: 100%;
     height: 100px;
-    text-align: center;
 }
 
 .container {
@@ -82,10 +83,12 @@
     padding: 5px;
     font-size: 15px;
 }
-.cont{
+
+.cont {
     width: 1200px;
     margin: 0 auto;
 }
+
 .nav_menu {
     position: sticky;
     top: 0;
@@ -95,6 +98,7 @@
     background-color: white;
     z-index: 1000;
 }
+
 .topmenu {
     width: 1200px;
     height: 100px;
@@ -102,13 +106,14 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-
 }
+
 /* .rty{
    width: 100%;
    height: 1px;
    background: #777777; 
 } */
+
 /* .rty:hover .topmenu>li{
     border-top: 6px solid #c14679;
 } */
@@ -141,9 +146,11 @@
     opacity: 1;
     z-index: 1000;
 }
-.show:hover .submenu li{
+
+.show:hover .submenu li {
     padding: 15px 25px;
 }
+
 .fon {
     background-image: url(fon.jpg);
     height: 600px;
@@ -247,53 +254,63 @@ a.btn {
     color: white;
     text-align: center;
 }
-.sagolovok{
+
+.sagolovok {
     text-align: center;
     text-transform: uppercase;
     margin: 0 0 30px 0;
     font-size: 50px;
 }
-.offer{
+
+.offer {
     display: flex;
     flex-direction: row;
     margin: 50px auto;
     width: 1200px;
 }
-.vbn{
+
+.vbn {
     display: flex;
     flex-direction: column;
     margin: 0 20px 0 0;
-    border: 1px solid #000;
+    border: 1px solid #b7b7b7;
     height: 400px;
 }
-.rama{
-    border: 15px solid #f3f7f8;   
+
+.rama {
+    border: 15px solid #f3f7f8;
 }
-.txt{
+
+.txt {
     text-align: center;
     text-transform: uppercase;
 }
-.we_offer{
+
+.we_offer {
     text-align: center;
 }
-.fon3{
+
+.fon3 {
     background-image: url(fon5.jpg);
     height: 600px;
     width: 100%;
     border: 1px solid white;
 }
-.fon3 h1{
-    text-align: center;
+
+.raz_txt{
     text-transform: uppercase;
+    text-align: center;
     margin: 50px 0;
     font-size: 50px;
 }
-.product{
+
+.product {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.fon_product{
+
+.fon_product {
     background: white;
     width: 250px;
     margin: 0 20px 0 0;
@@ -303,110 +320,161 @@ a.btn {
     align-items: center;
     justify-content: center;
 }
-.fon_product h3{
+
+.fon_product h3 {
     text-transform: uppercase;
     margin: 25px 0;
     font-size: 16px;
 }
-.fon_product p{
+
+.fon_product p {
     color: #c14679;
     font-size: 16px;
 }
-.section{
+.section {
     display: grid;
+    height: 400px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
     grid-template-areas: 
         'left logo img logo2 right'
         'left2 logo img logo2 right2'
         'left3 logo3 img logo23 right3'
         'lef4 logo3 img logo23 right4';
-    border: 2px solid black;
     justify-content: center;
-    align-content: center;
-    align-items: stretch;
+    grid-template-columns: 4fr 1fr 6fr 1fr 4fr ;
+    gap: 20px;
 }
-.about_us{
-    color: #c14679;
-    text-transform: uppercase;
-    font-size: 20px;
-    grid-area: left;
-    height: 50px;
-    width: 300px;
-}
-.about_us2{
-    color: #c14679;
-    text-transform: uppercase;
-    font-size: 20px;
-    grid-area: left3;
-    height: 50px;
-    width: 300px;
-}
-.about_us3{
-    color: #c14679;
-    text-transform: uppercase;
-    font-size: 20px;
-    grid-area: right;
-    height: 50px;
-    width: 300px;
 
-}
-.about_us4{
-    color: #c14679;
+.about_us {
+    grid-area: left;
+    color: black;
     text-transform: uppercase;
-    font-size: 20px;
-    grid-area: right3;
-    height: 50px;
-    width: 300px;
+    font-size: 24px;
+    text-align: right;
+    align-self: end;
 }
-.us{
+
+.about_us2 {
+    grid-area: left3;
+    color: black;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: right;
+    align-self: end;
+}
+
+.about_us3 {
+    grid-area: right;
+    color: black;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: left;
+    align-self: end;
+}
+
+.about_us4 {
+    grid-area: right3;
+    color: black;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: left;
+    align-self: end;
+}
+.raz_img{
+    width: 80px;
+    height: 80px;
+}
+.us {
     color: #777777;
     grid-area: left2;
-    height: 150px;
-    width: 300px;
+    text-align: right;
 }
-.us2{
+
+.us2 {
     color: #777777;
-    grid-area: left4;
-    height: 150px;
-    width: 300px;
+    /* grid-area: left4; */
+    text-align: right;
 }
-.us3{
+
+.us3 {
     color: #777777;
     grid-area: right2;
-    height: 150px;
-    width: 300px;
+    text-align: left;
 }
-.us4{
-    color: #777777;
+
+.us4 {
     grid-area: right4;
-    height: 150px;
-    width: 300px;
+    color: #777777;
+    text-align: left;
 }
-.logo{
+
+.logo {
     grid-area: logo;
-    height: 80px;
-    width: 80px;
-    border: 2px solid black;
+    align-self: center;
+}
+
+.logo2 {
+    grid-area: logo3;
+    align-self: center;    
+}
+.fa-truck{
+    align-self: center;
+    justify-self: center;
+    color: #c14679;
+}
+
+.logo3 {
+    grid-area: logo2;
+    align-self: center;
+}
+
+.logo4 {
+    grid-area: logo23;
+    align-self: center;
+}
+
+.strawberry {
+    grid-area: img;
+    align-self: center;
     justify-self: center;
 }
-.logo2{
-    grid-area: logo3;
-    height: 80px;
-    width: 80px;
-    border: 2px solid black;
+.fon4{
+    background-image: url(fon4.jpg);
+    width: 100%;
+    height: 540px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.logo3{
-    grid-area: logo2;
-    height: 80px;
-    width: 80px;
-    border: 2px solid black;
+.unit{
+    width: 1200px;
 }
-.logo4{
-    grid-area: logo23;
-    height: 80px;
-    width: 80px;
-    border: 2px solid black;
+.stil_txt{
+    text-transform: uppercase;
+    font-size: 50px;
 }
-.strawberry{
-    grid-area: img2;
-    border: 2px solid black;
+.poziciy{
+    display: flex;
+    margin: 20px 0;
+}
+.proc{
+    color: #c14679;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+}
+.pred{
+    text-transform: uppercase;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+.pred_zag{
+    color: #777777;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 30px;
 }
