@@ -341,7 +341,7 @@ a.btn {
         'left logo img logo2 right'
         'left2 logo img logo2 right2'
         'left3 logo3 img logo23 right3'
-        'lef4 logo3 img logo23 right4';
+        'left4 logo3 img logo23 right4';
     justify-content: center;
     grid-template-columns: 4fr 1fr 6fr 1fr 4fr ;
     gap: 20px;
@@ -394,7 +394,7 @@ a.btn {
 
 .us2 {
     color: #777777;
-    /* grid-area: left4; */
+    grid-area: left4;
     text-align: right;
 }
 
@@ -477,4 +477,70 @@ a.btn {
     font-size: 18px;
     text-align: left;
     margin-bottom: 30px;
+}
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+    margin: 0 auto; 
+}
+.about_border{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 570px;
+}
+.about_border::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 15px solid #f5f5f5;
+    display: inline-block;
+    width: 45%;
+    height: 60%;
+    z-index: -1;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    height: 200px;
+    width: 440px;
+    margin-left: 80px;
+    margin-top: 65px;
+    z-index: 1;
+}
+.box h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-bottom: 20px;
+
+}
+.box p{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.box a{
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    color: #777777;
+}
+.box2{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f5f5f5;
+    height: 25%;
+}
+.box2 a::before{
+    content: '';
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
 }
