@@ -108,11 +108,13 @@
     align-items: center;
 }
 
+
 /* .rty{
    width: 100%;
    height: 1px;
    background: #777777; 
 } */
+
 
 /* .rty:hover .topmenu>li{
     border-top: 6px solid #c14679;
@@ -152,24 +154,18 @@
 }
 
 .fon {
-    background-image: url(fon.jpg);
+    background-image: url(img/fon.jpg);
+    width: 100%;
     height: 600px;
-    border: 1px solid #fff;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .poz {
     width: 1200px;
-    height: 600px;
-    margin: 0 auto;
-    border: 1pz solid #fff;
-}
-
-.poz2 {
-    width: 30%;
-    height: 90%;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .btn2 {
@@ -191,6 +187,7 @@
     font-size: 35px;
     letter-spacing: 7px;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .zag2::before {
@@ -207,14 +204,15 @@
     color: #777777;
     letter-spacing: 2px;
     font-size: 26px;
-    margin: 30px 0;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .fon2 {
     position: relative;
     width: 1100px;
     height: 500px;
-    background-image: url(fon2.jpg);
+    background-image: url(img/fon2.jpg);
     margin: 0 auto;
     transform: translateY(-40px);
     border: 10px solid #f3f7f8;
@@ -237,7 +235,7 @@ h2.zag {
     margin: auto;
 }
 
-p.pzag {
+.pzagol {
     color: #777777;
     letter-spacing: 2px;
     font-size: 20px;
@@ -291,13 +289,13 @@ a.btn {
 }
 
 .fon3 {
-    background-image: url(fon5.jpg);
+    background-image: url(img/fon5.jpg);
     height: 600px;
     width: 100%;
     border: 1px solid white;
 }
 
-.raz_txt{
+.raz_txt {
     text-transform: uppercase;
     text-align: center;
     margin: 50px 0;
@@ -331,19 +329,16 @@ a.btn {
     color: #c14679;
     font-size: 16px;
 }
+
 .section {
     display: grid;
     height: 400px;
     width: 1200px;
     margin: 0 auto;
     margin-bottom: 50px;
-    grid-template-areas: 
-        'left logo img logo2 right'
-        'left2 logo img logo2 right2'
-        'left3 logo3 img logo23 right3'
-        'left4 logo3 img logo23 right4';
+    grid-template-areas: 'left logo img logo2 right' 'left2 logo img logo2 right2' 'left3 logo3 img logo23 right3' 'left4 logo3 img logo23 right4';
     justify-content: center;
-    grid-template-columns: 4fr 1fr 6fr 1fr 4fr ;
+    grid-template-columns: 4fr 1fr 6fr 1fr 4fr;
     gap: 20px;
 }
 
@@ -382,10 +377,12 @@ a.btn {
     text-align: left;
     align-self: end;
 }
-.raz_img{
+
+.raz_img {
     width: 80px;
     height: 80px;
 }
+
 .us {
     color: #777777;
     grid-area: left2;
@@ -417,9 +414,10 @@ a.btn {
 
 .logo2 {
     grid-area: logo3;
-    align-self: center;    
+    align-self: center;
 }
-.fa-truck{
+
+.fa-truck {
     align-self: center;
     justify-self: center;
     color: #c14679;
@@ -440,8 +438,9 @@ a.btn {
     align-self: center;
     justify-self: center;
 }
-.fon4{
-    background-image: url(fon4.jpg);
+
+.fon4 {
+    background-image: url(img/fon4.jpg);
     width: 100%;
     height: 540px;
     border: 1px solid white;
@@ -449,30 +448,36 @@ a.btn {
     justify-content: center;
     align-items: center;
 }
-.unit{
+
+.unit {
     width: 1200px;
 }
-.stil_txt{
+
+.stil_txt {
     text-transform: uppercase;
     font-size: 50px;
 }
-.poziciy{
+
+.poziciy {
     display: flex;
     margin: 20px 0;
 }
-.proc{
+
+.proc {
     color: #c14679;
     font-family: 'Great Vibes', cursive;
     font-size: 50px;
 }
-.pred{
+
+.pred {
     text-transform: uppercase;
     font-size: 25px;
     display: flex;
     align-items: center;
     margin: 0 20px;
 }
-.pred_zag{
+
+.pred_zag {
     color: #777777;
     font-size: 18px;
     text-align: left;
