@@ -549,3 +549,32 @@ a.btn {
     top: 50%;
     left: 50%;
 }
+.fon5{
+    background-image: url(./img/fon5.jpg);
+    height: 520px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fon5 h1{
+    color: #c14679;
+    font-family:'Great Vibes', cursive;
+    font-size: 40px;
+}
+.fon5 p{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 35px 0;
+}
+.podval{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+.zag_podval{
+    text-transform: uppercase;
+    
+}
