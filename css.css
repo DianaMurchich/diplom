@@ -126,7 +126,7 @@
 
 .show {
     flex-basis: 14%;
-    
+
     list-style: none;
 }
 
@@ -489,20 +489,23 @@ a.btn {
     text-align: left;
     margin-bottom: 30px;
 }
-.about{
+
+.about {
     display: flex;
     justify-content: space-evenly;
     width: 1200px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
-.about_border{
+
+.about_border {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 570px;
 }
-.about_border::before{
+
+.about_border::before {
     content: '';
     position: absolute;
     left: 0;
@@ -513,7 +516,8 @@ a.btn {
     height: 60%;
     z-index: -1;
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -524,30 +528,35 @@ a.btn {
     margin-top: 65px;
     z-index: 1;
 }
-.box h3{
+
+.box h3 {
     text-transform: uppercase;
     font-size: 25px;
     padding-bottom: 20px;
 
 }
-.box p{
+
+.box p {
     font-size: 18px;
     padding-bottom: 20px;
 }
-.box a{
+
+.box a {
     text-transform: uppercase;
     font-size: 16px;
     text-align: center;
     color: #777777;
 }
-.box2{
+
+.box2 {
     position: relative;
     display: flex;
     justify-content: space-around;
     background-color: #f5f5f5;
     height: 25%;
 }
-.box2 a::before{
+
+.box2 a::before {
     content: '';
     position: absolute;
     text-align: center;
@@ -555,37 +564,61 @@ a.btn {
     top: 50%;
     left: 50%;
 }
-.fon5{
-    background-image: url(./img/fon5.jpg);
-    height: 520px;
-    margin-top: 50px;
+
+.fon5 {
+    background-image: url(./img/fon3.jpg);
+    height: 815px;
+}
+
+.novosti {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.cake {
+    background-image: url(./img/novosti1.jpg);
+    background-repeat: no-repeat;
+    height: 480px;
+    width: 590px;
+    padding: 30px;
+}
+
+.cakes {
     display: flex;
     flex-direction: column;
+}
+
+.icheika {
+    display: flex;
+}
+.fon6{
+    background-image: url(./img/fon5.jpg);
+    height: 280px;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+
 }
-.fon5 h1{
-    color: #c14679;
-    font-family:'Great Vibes', cursive;
-    font-size: 40px;
+.imagiki{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
 }
-.fon5 p{
-    font-size: 60px;
-    text-transform: uppercase;
-    font-weight: 700;
-    padding: 35px 0;
-}
-.podval{
+.podval {
     display: flex;
     flex-direction: column;
     width: 1200px;
     margin: 50px auto;
     height: 400px;
 }
-.pod_podval{
+
+.pod_podval {
     display: flex;
 }
-.zag_podval{
+
+.zag_podval {
     width: 400px;
     margin: 30px 0;
     text-transform: uppercase;
@@ -593,24 +626,28 @@ a.btn {
     font-size: 18px;
     letter-spacing: 3.6px;
 }
-.razmer_bloka{
+
+.razmer_bloka {
     width: 400px;
     height: 250px;
     padding-right: 20px;
     margin-top: 10px;
-} 
-.razmer_img{
+}
+
+.razmer_img {
     height: 96px;
     width: 96px;
     padding: 0 5px 5px 0;
 }
-.razmer_bloka2{
+
+.razmer_bloka2 {
     width: 400px;
     height: 230px;
     display: flex;
     flex-flow: column wrap;
 }
-.ssl{
+
+.ssl {
     text-decoration: none;
     width: 200px;
     padding: 5px;
@@ -620,7 +657,8 @@ a.btn {
     line-height: 24px;
     letter-spacing: 0.75px;
 }
-.razmer_bloka3{
+
+.razmer_bloka3 {
     width: 300px;
     height: 230px;
     font-family: 'Lato', sans-serif;
@@ -629,28 +667,31 @@ a.btn {
     letter-spacing: 0.75px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;   
+    justify-content: space-around;
 }
 
-.fa.fa-map-marker{
+.fa.fa-map-marker {
     color: #c14679;
     margin-right: 20px;
 }
-.fa.fa-phone{
-    color: #c14679;
-    margin-right: 20px;
 
-}
-.fa.fa-envelope{
+.fa.fa-phone {
     color: #c14679;
     margin-right: 20px;
 }
-.znaki{
+
+.fa.fa-envelope {
+    color: #c14679;
+    margin-right: 20px;
+}
+
+.znaki {
     display: flex;
     justify-content: space-around;
     width: 150px;
 }
-.fa.fa-instagram{
+
+.fa.fa-instagram {
     color: #575757;
     text-decoration: none;
     border: 1px solid #575757;
@@ -660,9 +701,9 @@ a.btn {
     border-radius: 50%;
     vertical-align: middle;
     line-height: 39px;
-
 }
-.fa.fa-odnoklassniki{
+
+.fa.fa-odnoklassniki {
     color: #575757;
     text-decoration: none;
     border: 1px solid #575757;
@@ -672,9 +713,9 @@ a.btn {
     border-radius: 50%;
     vertical-align: middle;
     line-height: 39px;
-
 }
-.fa.fa-vk{
+
+.fa.fa-vk {
     color: #575757;
     text-decoration: none;
     border: 1px solid #575757;
