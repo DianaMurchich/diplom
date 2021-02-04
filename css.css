@@ -35,7 +35,11 @@
     color: black;
     text-decoration: none;
     padding: 30px 10px;
-    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    line-height: 22px;
+
 }
 
 .fa.fa-map-marker.fa-3x {
@@ -73,10 +77,13 @@
 .btn {
     text-transform: uppercase;
     border-radius: 10px;
-    padding: 15px 20px;
+    padding: 10px 25px;
     border-color: #c14679;
-    font-size: 15px;
+    font-size: 12px;
     background: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
 }
 
 .fa.fa-envelope-o {
@@ -178,7 +185,10 @@
     text-transform: uppercase;
     border-radius: 10px;
     padding: 20px 30px;
-    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.7px;
+    font-weight: 700;
+    font-size: 14px;
     background: #c14679;
     color: white;
 }
@@ -190,6 +200,7 @@
 }
 
 .zag2 {
+    font-family: 'Poppins', sans-serif;
     font-size: 35px;
     letter-spacing: 7px;
     text-transform: uppercase;
@@ -208,8 +219,9 @@
 
 .pzag {
     color: #777777;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
-    font-size: 26px;
+    font-size: 24px;
     text-align: left;
     margin-bottom: 20px;
 }
@@ -222,48 +234,57 @@
     margin: 0 auto;
     transform: translateY(-40px);
     border: 10px solid #f3f7f8;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* z-index: -1; */
 }
 
 .otst {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 75px 30px 185px 30px;
 }
 
 h2.zag {
     color: #c14679;
     font-family: 'Great Vibes', cursive;
-    font-size: 30px;
+    font-size: 32px;
+    letter-spacing: 1.6px;
     margin: auto;
 }
 
 .pzagol {
     color: #777777;
-    letter-spacing: 2px;
-    font-size: 20px;
-    margin: 25px 200px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 18px;
+    margin: 25px 150px;
     text-align: center;
 }
 
-a.btn {
+.strel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-transform: uppercase;
     border-radius: 50%;
-    width: 55px;
-    font-size: 20px;
+    width: 50px;
+    height: 50px;
     background: #c14679;
-    color: white;
-    text-align: center;
+}
+.strela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
 }
 
 .sagolovok {
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     text-transform: uppercase;
     margin: 0 0 30px 0;
-    font-size: 50px;
+    font-size: 55px;
+    letter-spacing: 2.7px;
 }
 
 .offer {
@@ -271,29 +292,50 @@ a.btn {
     flex-direction: row;
     margin: 50px auto;
     width: 1200px;
+    height: 500px;
 }
 
 .vbn {
     display: flex;
     flex-direction: column;
     margin: 0 20px 0 0;
-    border: 1px solid #b7b7b7;
     height: 400px;
 }
-
-.rama {
-    border: 15px solid #f3f7f8;
+.rama{
+    padding: 15px;
+    border: 1px solid #e1e1e1;
 }
-
 .txt {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 65px;
+    letter-spacing: 1.8px;
     text-align: center;
     text-transform: uppercase;
 }
 
 .we_offer {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 1px;
     text-align: center;
+    margin: 0 30px;
 }
-
+.sslk{
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #a3a3a3;
+    text-align: center;
+    border-bottom: 2px solid #a3a3a3;
+    margin: 20px auto ;
+}
 .fon3 {
     background-image: url(img/fon3.jpg);
     height: 600px;
@@ -302,10 +344,12 @@ a.btn {
 }
 
 .raz_txt {
+    font-family: 'Poppins', sans-serif ;
     text-transform: uppercase;
     text-align: center;
     margin: 50px 0;
-    font-size: 50px;
+    font-size: 55px;
+    letter-spacing: 2.7px;
 }
 
 .product {
@@ -318,15 +362,23 @@ a.btn {
     background: white;
     width: 250px;
     margin: 0 20px 0 0;
-    height: 300px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
+.corob {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 170px;
+}
 .fon_product h3 {
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
+    font-weight: 600;
     margin: 25px 0;
     font-size: 16px;
 }
@@ -338,7 +390,7 @@ a.btn {
 
 .section {
     display: grid;
-    height: 400px;
+    height: 500px;
     width: 1200px;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -351,8 +403,11 @@ a.btn {
 .about_us {
     grid-area: left;
     color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 24px;
+    letter-spacing: 1.8px;
     text-align: right;
     align-self: end;
 }
@@ -360,8 +415,11 @@ a.btn {
 .about_us2 {
     grid-area: left3;
     color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 24px;
+    letter-spacing: 1.8px;
     text-align: right;
     align-self: end;
 }
@@ -369,8 +427,11 @@ a.btn {
 .about_us3 {
     grid-area: right;
     color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 24px;
+    letter-spacing: 1.8px;
     text-align: left;
     align-self: end;
 }
@@ -378,8 +439,11 @@ a.btn {
 .about_us4 {
     grid-area: right3;
     color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 24px;
+    letter-spacing: 1.8px;
     text-align: left;
     align-self: end;
 }
@@ -390,24 +454,42 @@ a.btn {
 }
 
 .us {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.35px;
+    line-height: 24px;
     color: #777777;
     grid-area: left2;
     text-align: right;
+    border-bottom: 1px solid #b7b7b7;
 }
 
 .us2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.35px;
+    line-height: 24px;
     color: #777777;
     grid-area: left4;
     text-align: right;
 }
 
 .us3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.35px;
+    line-height: 24px;
     color: #777777;
     grid-area: right2;
     text-align: left;
+    border-bottom: 1px solid #b7b7b7;
 }
 
 .us4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.35px;
+    line-height: 24px;
     grid-area: right4;
     color: #777777;
     text-align: left;
@@ -460,8 +542,10 @@ a.btn {
 }
 
 .stil_txt {
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 55px;
+    letter-spacing: 2.7px;
 }
 
 .poziciy {
@@ -476,16 +560,20 @@ a.btn {
 }
 
 .pred {
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 24px;
+    letter-spacing: 1.8px;
+    font-weight: 600;
     display: flex;
     align-items: center;
     margin: 0 20px;
 }
 
 .pred_zag {
+    font-family: 'Poppins', sans-serif;
     color: #777777;
-    font-size: 18px;
+    font-size: 15px;
     text-align: left;
     margin-bottom: 30px;
 }
@@ -530,22 +618,35 @@ a.btn {
 }
 
 .box h3 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2.4px;
+    line-height: 32px;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 24px;
     padding-bottom: 20px;
-
 }
 
 .box p {
-    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.75px;
+    line-height: 24px;
     padding-bottom: 20px;
 }
 
 .box a {
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-weight: 600;
     text-transform: uppercase;
-    font-size: 16px;
+    text-decoration: none;
+    color: #a3a3a3;
     text-align: center;
-    color: #777777;
+    border-bottom: 2px solid #a3a3a3;
+    margin: 20px auto ;
 }
 
 .box2 {
@@ -564,21 +665,12 @@ a.btn {
     top: 50%;
     left: 50%;
 }
-<<<<<<< HEAD
-
 .fon5 {
     background-image: url(./img/fon3.jpg);
     height: 815px;
 }
 
 .novosti {
-=======
-.fon5{
-    background-image: url(./img/fon5.jpg);
-    height: 520px;
-    margin-top: 50px;
-    margin-bottom: 50px;
->>>>>>> 0f26c5a60f147004096eaefdb1b86db74492c086
     display: flex;
     
     justify-content: center;
@@ -597,8 +689,6 @@ a.btn {
     display: flex;
     flex-direction: column;
 }
-<<<<<<< HEAD
-
 .icheika {
     display: flex;
 }
@@ -608,7 +698,7 @@ a.btn {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    
 }
 .imagiki{
     width: 1200px;
@@ -616,12 +706,6 @@ a.btn {
     justify-content: space-around;
 }
 .podval {
-=======
-.otdelka{
-    border-top: 1px solid #b7b7b7;
-}
-.podval{
->>>>>>> 0f26c5a60f147004096eaefdb1b86db74492c086
     display: flex;
     flex-direction: column;
     width: 1200px;
