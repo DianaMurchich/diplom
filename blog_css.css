@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fon_1 {
+    background-image: url(./img/gallery/fon_1.jpg);
+    height: 339px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fon_1 h2 {
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.pod_menu {
+    background: #f9faf9;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.pod_menu ul {
+    display: flex;
+}
+
+.pod_menu ul li {
+    list-style-type: none;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+
+.pod_menu ul li a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.blog {
+    display: grid;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    grid-template-areas: 'nov nov2 nov3' 'nov4 nov5 nov6';
+    grid-template-columns: 3fr 3fr 3fr;
+    justify-content: center;
+    align-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+
+.nov {
+    grid-area: nov;
+}
+
+.nov2 {
+    grid-area: nov2;
+}
+
+.nov3 {
+    grid-area: nov3;
+}
+
+.nov4 {
+    grid-area: nov4;
+}
+
+.nov55 {
+    grid-area: nov5;
+}
+
+.nov6 {
+    grid-area: nov6;
+}
