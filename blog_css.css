@@ -62,31 +62,31 @@
 }
 .nov {
     grid-area: nov;
-    background-color: #777777;
 }
 
 .nov2 {
     grid-area: nov2;
-    background-color: #f9faf9;
 }
 
 .nov3 {
     grid-area: nov3;
-    background-color: #f9faf9;
 }
 
 .nov4 {
     grid-area: nov4;
-    background-color: #f9faf9;
 }
 
 .nov55 {
     grid-area: nov5;
-    background-color: #f9faf9;
 }
 
 .nov6 {
     grid-area: nov6;
-    background-color: #f9faf9;
 }
-.class
+
+.pod_blog{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+}
