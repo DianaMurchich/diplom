@@ -50,16 +50,23 @@
 
 .blog {
     display: grid;
-    width: 1200px;
-    height: 700px;
+    max-width: 1200px;
     margin: 0 auto;
     grid-template-areas: 'nov nov2 nov3' 'nov4 nov5 nov6';
-    grid-template-columns: 3fr 3fr 3fr;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
     align-content: space-evenly;
-    justify-items: center;
-    align-items: center;
 }
+
+[class ^="nov"] {
+    background-color: #faf9fa;
+}
+
+[class ^="nov"] img {
+    width: 100%;
+    margin: 10px;
+}
+
 .nov {
     grid-area: nov;
 }
@@ -76,7 +83,7 @@
     grid-area: nov4;
 }
 
-.nov55 {
+.nov5 {
     grid-area: nov5;
 }
 
@@ -84,9 +91,9 @@
     grid-area: nov6;
 }
 
-.pod_blog{
+.pod_blog {
     display: flex;
     flex-direction: column;
-    align-content: space-around;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 30px;
 }
