@@ -6,7 +6,8 @@
 
 .fon_1 {
     background-image: url(./img/gallery/fon_1.jpg);
-    height: 339px;
+    background-repeat: no-repeat;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;

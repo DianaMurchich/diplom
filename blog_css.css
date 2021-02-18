@@ -6,7 +6,8 @@
 
 .fon_1 {
     background-image: url(./img/gallery/fon_1.jpg);
-    height: 339px;
+    background-repeat: no-repeat;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,6 +52,7 @@
 .blog {
     display: grid;
     max-width: 1200px;
+    gap: 20px;
     margin: 0 auto;
     grid-template-areas: 'nov nov2 nov3' 'nov4 nov5 nov6';
     grid-template-columns: 1fr 1fr 1fr;
@@ -59,12 +61,11 @@
 }
 
 [class ^="nov"] {
-    background-color: #faf9fa;
+    background-color: #f9faf9;
 }
 
 [class ^="nov"] img {
     width: 100%;
-    margin: 10px;
 }
 
 .nov {
@@ -95,5 +96,21 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 30px;
+    padding: 40px;
+}
+.zag_blog{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    margin-top: 20px;
+},  
+.txt_blog{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+    margin-top: 20px;
+    color: #777777;
 }
