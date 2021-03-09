@@ -98,15 +98,17 @@
     justify-content: space-evenly;
     padding: 40px;
 }
-.zag_blog{
+
+.zag_blog {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 30px;
     font-weight: 500;
     letter-spacing: 0.9px;
     margin-top: 20px;
-},  
-.txt_blog{
+}
+
+.txt_blog {
     font-family: 'Lato', sans-serif;
     font-size: 15px;
     line-height: 24px;
