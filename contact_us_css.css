@@ -48,3 +48,43 @@
     text-decoration: none;
     color: #777777;
 }
+
+.forma {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.zag_forma {
+    display: flex;
+}
+
+.txt_zag_forma {
+    height: 48px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    padding-right: 30px;
+}
+
+.txt_forma {
+    height: 48px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #777777;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    border-left: 1px solid #e1e1e1;
+    padding-left: 30px;
+}
+
+.osnov_forma {
+    padding-top: 50px;
+}
+
+.ramka {
+    width: 370px;
+    height: 60px;
+    border: #777777;
+}
