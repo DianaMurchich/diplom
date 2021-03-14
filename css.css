@@ -89,11 +89,6 @@
     font-size: 15px;
 }
 
-.cont {
-    width: 1200px;
-    margin: 0 auto;
-}
-
 .nav_menu {
     position: sticky;
     top: 0;
@@ -110,10 +105,28 @@
 .topmenu {
     width: 1200px;
     height: 100px;
+    margin: 0 auto;
     display: flex;
-    flex-direction: row;
+}
+
+.pod_cont {
+    width: 900px;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.pod_cont2 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.poisk {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }
 
 .show {
