@@ -79,14 +79,25 @@
     padding-left: 30px;
 }
 
-.osnov_forma {
-    padding-top: 50px;
+.pole {
+    margin-bottom: 50px;
 }
 
-.ramka {
-    width: 370px;
-    height: 60px;
-    border: #777777;
+.osnov_forma {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.osnov_forma div input {
+    border: 0;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: #151515;
 }
 
 .contact {
