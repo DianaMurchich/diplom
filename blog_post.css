@@ -82,12 +82,19 @@
     line-height: 24px;
     color: #777777;
 }
-
+.zag_coments{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
 .comentary {
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-top: 50px;
 }
 
 .comentary input {
@@ -114,4 +121,8 @@
     color: #151515;
     padding-top: 20px;
     margin-bottom: 50px;
+}
+.btn_width{
+    width: 191px;
+    height: 66px;
 }
