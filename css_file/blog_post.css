@@ -5,7 +5,7 @@
 }
 
 .fon_1 {
-    background-image: url(./img/gallery/fon_1.jpg);
+    background-image: url(../img/gallery/fon_1.jpg);
     background-repeat: no-repeat;
     height: 400px;
     display: flex;
@@ -49,94 +49,57 @@
     color: #777777;
 }
 
-.bloc_product {
+.blog {
     width: 1200px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
 }
 
-.foto_product {
-    width: 600px;
-    padding: 0 15px;
-    display: flex;
-    flex-direction: column;
+.stolb1 {
+    width: 900px;
 }
 
-.pod_gallery_product {
-    height: 164px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-}
-
-.img_product {
-    background-color: #f9faf9;
-}
-
-.inf_product {
-    margin-left: 50px;
-}
-
-.zag_product {
+.zag_post {
+    width: 620px;
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
-    font-weight: 500;
     letter-spacing: 1.8px;
-    margin-bottom: 20px;
-}
-
-.cena_product {
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    line-height: 48px;
     font-weight: 500;
-    letter-spacing: 1.2px;
-    color: #c14679;
-    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
-.txt_product {
+.img_post {
+    margin-top: 30px;
+}
+
+.post {
+    width: 770px;
+    margin-top: 30px;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
-    letter-spacing: 0.8px;
+    font-weight: 400;
+    letter-spacing: 0.75px;
     line-height: 24px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #e1e1e1;
-    margin-bottom: 20px;
-    color: #151515;
-    list-style: none;
+    color: #777777;
 }
 
-.txt_product li {
-    margin-bottom: 10px;
+.zag_coments {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-top: 50px;
 }
 
-.txt_product li span:last-child {
-    color: #777777
-}
-
-input[type=number] {
-    -moz-appearance: textfield;
-}
-
-.pole {
-    margin-bottom: 50px;
-    width: 1200px;
-    display: flex;
-    margin: 0 auto;
-}
-
-.osnov_forma {
-    height: 160px;
-    margin-bottom: 40px;
+.comentary {
+    height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    flex-flow: column wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
 }
 
-.osnov_forma input {
+.comentary input {
     border: 0;
     border-bottom: 1px solid #e1e1e1;
     padding-top: 20px;
@@ -159,4 +122,10 @@ input[type=number] {
     letter-spacing: 1.5px;
     color: #151515;
     padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.btn_width {
+    width: 191px;
+    height: 66px;
 }

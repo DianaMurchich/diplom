@@ -5,7 +5,7 @@
 }
 
 .fon_1 {
-    background-image: url(./img/gallery/fon_1.jpg);
+    background-image: url(../img/gallery/fon_1.jpg);
     height: 400px;
     display: flex;
     align-items: center;
