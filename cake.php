@@ -18,14 +18,14 @@
 
 <body>
     <?php
-    require_once('./main_pages/nav_menu.php');
+    require_once('./nav_menu.php');
     ?>
     <div class="fon">
         <div class="poz">
             <div class="zag">Delicious</div>
             <h3 class="zag2">cakes for you</h3>
             <p class="pzag">Sweet Bakery offers the best<br> cakes and sweets for you.</p>
-            <a href="./main_pages/shop.php"><button class="btn2">shop now</button></a>
+            <a href="./shop.php"><button class="btn2">shop now</button></a>
         </div>
     </div>
     <div class="fon2">
@@ -33,7 +33,7 @@
             <h2 class="zag">Only Fresh Cakes</h2>
             <p class="pzagol">All of our products are made from scratch using family recipes with only the highest quality ingredients. We bake and sell fresh daily to ensure only the best products are sold to our customers.
             </p>
-            <a class="strel" href="./main_pages/shop.php"><img src="./img/strel.png" class="strela"> </a>
+            <a class="strel" href="./shop.php"><img src="./img/strel.png" class="strela"> </a>
         </div>
     </div>
     <h2 class="sagolovok">what we offer</h2>
@@ -114,7 +114,7 @@
                 <p class="pred">on all Cakes</p>
             </span>
             <p class="pred_zag">Purchase our tasty cakes and sweets for your next event or family<br>dinner at our online shop and save more money than anywhere.</p>
-            <a href="./main_pages/shop.html"><button class="btn2">shop now</button></a>
+            <a href="./shop.html"><button class="btn2">shop now</button></a>
         </div>
     </div>
     <h2 class="raz_txt">About us</h2>
@@ -176,6 +176,6 @@
     </div>
     <div class="otdelka"></div>
     <?php
-    require_once('./main_pages/podval.php');
+    require_once('./podval.php');
     ?>
 </body>

@@ -3,7 +3,7 @@
             <div class="blok"><span class="fa fa-map-marker fa-3x"></span><a href="">523 Sylvan Ave<br> Mountain
                     View, CA
                     94041 USA</a></div>
-            <div class="blok2">Sweet<img src="../img/cake.jpg" class="tr">Bakery</div>
+            <div class="blok2">Sweet<img src="./img/cake.jpg" class="tr">Bakery</div>
             <div class="blok3">
                 <form><button class="btn"><span class="fa fa-envelope-o"></span>Get in touch</button></form>
             </div>
@@ -12,20 +12,20 @@
     <div class="nav_menu">
         <ul class="topmenu">
             <div class="pod_cont">
-                <li class="show"><a href="../cake.php">HOME</a></li>
-                <li class="show"><a href="../main_pages/gallery.php">GALLERY</a>
+                <li class="show"><a href="./cake.php">HOME</a></li>
+                <li class="show"><a href="./gallery.php">GALLERY</a>
                 </li>
-                <li class="show"><a href="../main_pages/shop.php">SHOP</a>
+                <li class="show"><a href="./shop.php">SHOP</a>
                     <ul class="submenu">
-                        <li><a href="../main_pages/shop.php">shop</a></li>
-                        <li><a href="../main_pages/single_product.php">single product</a></li>
-                        <li><a href="../main_pages/cart.php">cart</a></li>
+                        <li><a href="./shop.php">shop</a></li>
+                        <li><a href="./single_product.php">single product</a></li>
+                        <li><a href="./cart.php">cart</a></li>
                     </ul>
                 </li>
-                <li class="show"><a href="../main_pages/blog.php">BLOG</a>
+                <li class="show"><a href="./blog.php">BLOG</a>
                     <ul class="submenu">
-                        <li><a href="../main_pages/blog.php">blog</a></li>
-                        <li><a href="../main_pages/blog_post.php">blog post</a></li>
+                        <li><a href="./blog.php">blog</a></li>
+                        <li><a href="./blog_post.php">blog post</a></li>
                     </ul>
                 </li>
                 <!-- <li class="show"><a href="">PAGES</a>
@@ -61,12 +61,11 @@
                         </li>
                     </ul>
                 </li> -->
-                <li class="show"><a href="../main_pages/contact_us.php">CONTACT US</a></li>
+                <li class="show"><a href="./contact_us.php">CONTACT US</a></li>
             </div>
             <div class="pod_cont2">
-                <img src="../img/lup.png" class="poisk">
-                <a href="../main_pages/cart.php"><img src="../img/shopping.png" class="poisk"></a>
-
+                <img src="./img/lup.png" class="poisk">
+                <a href="./cart.php"><img src="./img/shopping.png" class="poisk"></a>
             </div>
         </ul>
     </div>

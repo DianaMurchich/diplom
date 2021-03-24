@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="icon" href="../img/icon.png">
-    <link rel="stylesheet" href="../css_file/css.css">
-    <link rel="stylesheet" href="../css_file/contact_us_css.css">
+    <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="./css_file/contact_us_css.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
@@ -19,14 +19,14 @@
 
 <body>
     <?php
-    require_once('nav_menu.php');
+    require_once('./nav_menu.php');
     ?>
     <div class="fon_1">
         <h2>contact us</h2>
     </div>
     <div class="pod_menu">
         <ul>
-            <li><a href="../cake.php">home</a></li>
+            <li><a href="./cake.php">home</a></li>
             <span class="fa fa-arrow-right"></span>
             <li>contact us</li>
         </ul>
@@ -66,7 +66,7 @@
         </div>
     </div>
     <?php
-    require_once('../main_pages/podval.php');
+    require_once('./podval.php');
     ?>
 </body>
 
