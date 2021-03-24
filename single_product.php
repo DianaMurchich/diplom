@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php
+        require_once("./app/connect.php");
+        $id = (int)$_GET['product'];
+        $data = $conn->prepare("SELECT * FROM diana.product WHERE id = $id");
+        $data->execute();
+        
+        $result = $data->fetch(PDO::FETCH_ASSOC); 
+            // перебираем в цикле данные из запроса сразу после получения не сохраняя в переменную
+       
+        ?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single Product</title>
+    <title><?php echo $result["name"]?></title>
     <link rel="icon" href="./img/icon.png">
     <link rel="stylesheet" href="./css.css">
     <link rel="stylesheet" href="./css_file/single_product.css">
@@ -21,6 +30,7 @@
     <?php
     require_once('./nav_menu.php');
     ?>
+
     <div class="fon_1">
         <h2>Single Product</h2>
     </div>
@@ -35,25 +45,26 @@
     </div>
     <div class="bloc_product">
         <div class="foto_product">
-            <img src="./img/single-product-1.png" class="img_product">
+            <img src="<?php echo $result["url_img"]?>" class="osnov_img">
             <div class="pod_gallery_product">
-                <img src="./img/single-product-1.png" class="img_product">
+                <img src="<?php echo $result["url_img"]?>" class="img_product">
                 <img src="./img/single-product-2.png" class="img_product">
                 <img src="./img/single-product-3.png" class="img_product">
             </div>
         </div>
         <div class="inf_product">
-            <h3 class="zag_product">Chocolate Truffles</h3>
-            <p class="cena_product">$23</p>
-            <p class="txt_product">Lorem ipsum dolor sit amet, ei impetus epicurei his, ne falli erant consequuntur est. Mei simul aperiam eu, an rebum regione ponderum mel. Facer placerat ut duo, id duis solum maiorum vis, vim autemsemper docendi cu.</p>
+    
+            <h3 class="zag_product"><?php echo $result["name"]?></h3>
+            <p class="cena_product"><?php echo $result["price"]?> руб/кг</p>
+            <p class="txt_product"><?php echo $result["description"]?></p>
             <ul class="txt_product">
                 <li>
                     <span>Categories:</span>
-                    <span>Sweets</span>
+                    <span><?php echo $result["categories"]?></span>
                 </li>
                 <li>
                     <span>Weight:</span>
-                    <span>7,25 oz</span>
+                    <span><?php echo $result["weight"]?></span>
                 </li>
                 <li>
                     <span>Box:</span>

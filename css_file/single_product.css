@@ -63,7 +63,12 @@
     display: flex;
     flex-direction: column;
 }
-
+.osnov_img{
+    background-color: #f9faf9;
+    width: 532px;
+    height: 481px;
+    margin: 0 auto;
+}
 .pod_gallery_product {
     height: 164px;
     display: flex;
@@ -73,10 +78,13 @@
 
 .img_product {
     background-color: #f9faf9;
+    width: 180px;
+    height: 164px;
 }
 
 .inf_product {
     margin-left: 50px;
+    width: 600px;
 }
 
 .zag_product {

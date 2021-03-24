@@ -67,8 +67,8 @@
         </div>
         <div class="block_produckt">
 <?php
-$conn = new PDO('mysql:host = 127.0.0.1, dbname = diana', 'diana', '123123');
-$data = $conn->prepare("SELECT * FROM diana.product ORDER BY id ");
+require_once("./app/connect.php");
+$data = $conn->prepare("SELECT * FROM diana.product");
 $data->execute();
 
 foreach ($data->fetchAll(PDO::FETCH_ASSOC) as $key => $value){
@@ -76,7 +76,7 @@ foreach ($data->fetchAll(PDO::FETCH_ASSOC) as $key => $value){
     echo <<<doc
     <div class='product'>
                 <img src="{$value ['url_img']}" class="img_product">
-                <a href="./single_product.html" class="nazvanie">{$value ['name']}</a>
+                <a href="./single_product.php?product={$value ['id']}" class="nazvanie">{$value ['name']}</a>
                 <p class="cena">{$value['price']} руб./кг</p>
                 </div>
     doc;

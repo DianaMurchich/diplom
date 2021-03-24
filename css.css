@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'GoodVibesPro';
+    font-style: normal;
+    /* font-weight: 400; */
+    font-display: swap;
+    src: url(./fonts/GoodVibesPro.woff2) format('woff2');
+  }
+
+
 * {
     margin: 0;
     padding: 0;
@@ -182,7 +191,7 @@
     text-transform: uppercase;
     border-radius: 10px;
     padding: 20px 30px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'GoodVibesPro', sans-serif;
     letter-spacing: 1.7px;
     font-weight: 700;
     font-size: 14px;
@@ -192,7 +201,8 @@
 
 .zag {
     color: #c14679;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'GoodVibesPro', sans-serif;
+    font-weight: 100;
     font-size: 110px;
 }
 

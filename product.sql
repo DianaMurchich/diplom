@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: localhost
--- Время создания: Мар 23 2021 г., 13:31
+-- Время создания: Мар 24 2021 г., 13:58
 -- Версия сервера: 8.0.21
 -- Версия PHP: 7.4.7
 
@@ -38,6 +38,21 @@ CREATE TABLE `product` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
+-- Дамп данных таблицы `product`
+--
+
+INSERT INTO `product` (`id`, `name`, `price`, `description`, `categories`, `weight`, `url_img`) VALUES
+(1, 'Рыжик', 700, '', '', '', './img/BD/Торт1.jpg'),
+(2, 'Наполеон', 700, '', '', '', './img/BD/Торт1.jpg'),
+(3, 'Наполеон', 700, '', '', '', './img/BD/Торт1.jpg'),
+(4, 'Наполеон', 700, '', '', '', './img/BD/Торт1.jpg'),
+(5, 'Наполеон', 700, '', '', '', './img/BD/Торт1.jpg'),
+(6, 'Наполеон', 700, '', '', '', './img/BD/Торт1.jpg'),
+(7, 'Наполеон', 700, '', '', '', './img/BD/Торт1.jpg'),
+(8, 'Наполеон', 700, '', '', '', './img/BD/Торт1.jpg'),
+(9, 'Наполеон', 700, '', '', '', './img/BD/Торт1.jpg');
+
+--
 -- Индексы сохранённых таблиц
 --
 
@@ -55,7 +70,7 @@ ALTER TABLE `product`
 -- AUTO_INCREMENT для таблицы `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

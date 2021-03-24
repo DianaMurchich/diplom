@@ -18,7 +18,6 @@
                 <li class="show"><a href="./shop.php">SHOP</a>
                     <ul class="submenu">
                         <li><a href="./shop.php">shop</a></li>
-                        <li><a href="./single_product.php">single product</a></li>
                         <li><a href="./cart.php">cart</a></li>
                     </ul>
                 </li>

@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caky</title>
+    <title>Тортики</title>
     <link rel="icon" href="./img/icon.png">
     <link rel="stylesheet" href="./css.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./fonts/GoodVibesPro.woff2">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -22,9 +23,9 @@
     ?>
     <div class="fon">
         <div class="poz">
-            <div class="zag">Delicious</div>
-            <h3 class="zag2">cakes for you</h3>
-            <p class="pzag">Sweet Bakery offers the best<br> cakes and sweets for you.</p>
+            <div class="zag">Вкусные</div>
+            <h3 class="zag2">cakes for you торты для вашего</h3>
+            <p class="pzag">Sweet Bakery offers the best Сладкая пекарня предлагает самое лучшее<br> cakes and sweets for you. торты и сладости для вас.</p>
             <a href="./shop.php"><button class="btn2">shop now</button></a>
         </div>
     </div>
