@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,11 +20,15 @@
 
 <body>
     <?php
+
     require_once('./nav_menu.php');
     ?>
     <div class="fon_1">
         <h2>shop</h2>
     </div>
+    <!-- <?php
+header("Location: cart.php");
+?> -->
     <div class="pod_menu">
         <ul>
             <li><a href="./cake.php">home</a></li>

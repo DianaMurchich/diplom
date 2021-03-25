@@ -37,13 +37,13 @@
             <p class="txt_forma">We are available 24/7 by fax, e-mail or by phone. You can also use our<br> quick contact form to ask a question about our products.</p>
         </div>
         <div class="pole">
-            <form>
+            <form method="POST" action="order_form.php">
                 <div class="osnov_forma">
-                    <input type="text" placeholder="First Name">
-                    <input type="text" placeholder="Last Name">
-                    <input type="email" placeholder="E-mail">
-                    <input type="text" placeholder="Phone">
-                    <textarea placeholder="Messange" class="sms"></textarea>
+                    <input type="text" placeholder="First Name" name="first">
+                    <input type="text" placeholder="Last Name" name="last">
+                    <input type="email" placeholder="E-mail" name="e-mail">
+                    <input type="text" placeholder="Phone" name="phone">
+                    <textarea placeholder="Messange" class="sms" name="massange"></textarea>
                 </div>
                 <button class="btn2">send message</button>
             </form>
