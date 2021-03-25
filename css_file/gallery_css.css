@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'GoodVibesPro';
+    font-style: normal;
+    font-display: swap;
+    src: url(./fonts/GoodVibesPro.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    src: url(./fonts/Roboto.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'CenturyGothic';
+    font-style: normal;
+    font-display: swap;
+    src: url(./fonts/CenturyGothic.woff2) format('woff2');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +35,7 @@
 
 .fon_1 h2 {
     color: #ffff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'CenturyGothic', sans-serif;
     font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 3px;

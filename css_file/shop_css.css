@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'GoodVibesPro';
+    font-style: normal;
+    font-display: swap;
+    src: url(./fonts/GoodVibesPro.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    src: url(./fonts/Roboto.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'CenturyGothic';
+    font-style: normal;
+    font-display: swap;
+    src: url(./fonts/CenturyGothic.woff2) format('woff2');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +36,7 @@
 
 .fon_1 h2 {
     color: #ffff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'CenturyGothic', sans-serif;
     font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -38,7 +59,7 @@
     list-style-type: none;
     padding: 0 20px;
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'CenturyGothic', sans-serif;
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 0.7px;
@@ -61,7 +82,7 @@
 }
 
 .zagolovok {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'CenturyGothic', sans-serif;
     font-size: 16px;
     letter-spacing: 1.2px;
     text-transform: uppercase;
@@ -89,7 +110,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding-left: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
 }
 
@@ -119,7 +140,7 @@
 }
 
 .nazvanie {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'CenturyGothic', sans-serif;
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
@@ -128,7 +149,7 @@
 }
 
 .cena {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 700;
     color: #c14679;

@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'GoodVibesPro';
+    font-style: normal;
+    font-display: swap;
+    src: url(./fonts/GoodVibesPro.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    src: url(./fonts/Roboto.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'CenturyGothic';
+    font-style: normal;
+    font-display: swap;
+    src: url(./fonts/CenturyGothic.woff2) format('woff2');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +36,7 @@
 
 .fon_1 h2 {
     color: #ffff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'CenturyGothic', sans-serif;
     font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -38,7 +59,7 @@
     list-style-type: none;
     padding: 0 20px;
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'CenturyGothic', sans-serif;
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 0.7px;
@@ -62,7 +83,7 @@
 
 .txt_zag_forma {
     height: 48px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'CenturyGothic', sans-serif;
     text-transform: uppercase;
     font-size: 36px;
     font-weight: 600;
@@ -72,7 +93,7 @@
 
 .txt_forma {
     height: 48px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #777777;
     line-height: 24px;
@@ -99,7 +120,7 @@
     border-bottom: 1px solid #e1e1e1;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'CenturyGothic', sans-serif;
     font-size: 15px;
     letter-spacing: 1.5px;
     color: #151515;
@@ -112,7 +133,7 @@
     border: 0;
     border-bottom: 1px solid #e1e1e1;
     min-height: 64px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'CenturyGothic', sans-serif;
     font-size: 15px;
     letter-spacing: 1.5px;
     color: #151515;
@@ -135,7 +156,7 @@
 }
 
 .zag_contact {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'CenturyGothic', sans-serif;
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 1.8px;
@@ -144,7 +165,7 @@
 }
 
 .txt_contact {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #777777;
     font-size: 15px;
     line-height: 24px;
