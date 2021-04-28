@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-        require_once("./app/connect.php");
-        $id = (int)$_GET['product'];
-        $data = $conn->prepare("SELECT * FROM diana.product WHERE id = $id");
-        $data->execute();
-        
-        $result = $data->fetch(PDO::FETCH_ASSOC); 
-            // перебираем в цикле данные из запроса сразу после получения не сохраняя в переменную
-       
-        ?>
+require_once("./app/connect.php");
+$id = (int)$_GET['product'];
+$data = $conn->prepare("SELECT * FROM diana.product WHERE id = $id");
+$data->execute();
+
+$result = $data->fetch(PDO::FETCH_ASSOC);
+// перебираем в цикле данные из запроса сразу после получения не сохраняя в переменную
+
+?>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $result["name"]?></title>
+    <title><?php echo $result["name"] ?></title>
     <link rel="icon" href="./img/icon.png">
     <link rel="stylesheet" href="./css.css">
     <link rel="stylesheet" href="./css_file/single_product.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-   
+
 </head>
 
 <body>
@@ -40,41 +41,41 @@
     </div>
     <div class="bloc_product">
         <div class="foto_product">
-            <img src="<?php echo $result["url_img"]?>" class="osnov_img">
+            <img src="<?php echo $result["url_img"] ?>" class="osnov_img">
             <div class="pod_gallery_product">
-                <img src="<?php echo $result["url_img"]?>" class="img_product">
+                <img src="<?php echo $result["url_img"] ?>" class="img_product">
                 <img src="./img/single-product-2.png" class="img_product">
                 <img src="./img/single-product-3.png" class="img_product">
             </div>
         </div>
         <div class="inf_product">
-    
-            <h3 class="zag_product"><?php echo $result["name"]?></h3>
-            <p class="cena_product"><?php echo $result["price"]?> руб/кг</p>
-            <p class="txt_product"><?php echo $result["description"]?></p>
+
+            <h3 class="zag_product"><?php echo $result["name"] ?></h3>
+            <p class="cena_product"><?php echo $result["price"] ?> руб/кг</p>
+            <p class="txt_product"><?php echo $result["description"] ?></p>
             <ul class="txt_product">
                 <li>
                     <span>Categories:</span>
-                    <span><?php echo $result["categories"]?></span>
+                    <span><?php echo $result["categories"] ?></span>
                 </li>
                 <li>
                     <span>Weight:</span>
-                    <span><?php echo $result["weight"]?></span>
+                    <span><?php echo $result["weight"] ?></span>
                 </li>
-                <li>
+                <!-- <li>
                     <span>Box:</span>
                     <span>60 x 60 x 90 cm </span>
-                </li>
+                </li> -->
             </ul>
             <div>
                 <div>
-                    <input type="number" value="1" min="1" max="100">
+                    <input type="text" name="number_of_kilograms" value="2" id="number_of_kilograms" >
                     <div>
-                        <button class="">+</button>
-                        <button>-</button>
+                        <button class="number1">+</button>
+                        <button class="number1">-</button>
                     </div>
                 </div>
-                <button class="btn2">add to cart</button>
+                <button class="btn2">офермить заказ</button>
             </div>
         </div>
     </div>
@@ -93,6 +94,7 @@
     <?php
     require_once('./podval.php');
     ?>
+    <script src="./number.js"></script>
 </body>
 
 </html>

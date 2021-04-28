@@ -1,2 +1,2 @@
 <?php
-$conn = new PDO('mysql:host = 127.0.0.1, dbname = diana', 'diana', '123123');
+$conn = new PDO('mysql:host = 192.168.137.1, dbname = diana', 'diana', '123123');
