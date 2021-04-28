@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,20 +9,17 @@
     <link rel="stylesheet" href="./css.css">
     <link rel="stylesheet" href="./css_file/shop_css.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    
+
 </head>
 
 <body>
     <?php
-
     require_once('./nav_menu.php');
     ?>
     <div class="fon_1">
         <h2>shop</h2>
     </div>
-    <!-- <?php
-header("Location: cart.php");
-?> -->
+    
     <div class="pod_menu">
         <ul>
             <li><a href="./cake.php">home</a></li>
@@ -66,22 +62,22 @@ header("Location: cart.php");
 
         </div>
         <div class="block_produckt">
-<?php
-require_once("./app/connect.php");
-$data = $conn->prepare("SELECT * FROM diana.product");
-$data->execute();
+            <?php
+            require_once("./app/connect.php");
+            $data = $conn->prepare("SELECT * FROM diana.product");
+            $data->execute();
 
-foreach ($data->fetchAll(PDO::FETCH_ASSOC) as $key => $value){
-    // перебираем в цикле данные из запроса сразу после получения не сохраняя в переменную
-    echo <<<doc
+            foreach ($data->fetchAll(PDO::FETCH_ASSOC) as $key => $value) {
+                // перебираем в цикле данные из запроса сразу после получения не сохраняя в переменную
+                echo <<<doc
     <div class='product'>
-                <img src="{$value ['url_img']}" class="img_product">
-                <a href="./single_product.php?product={$value ['id']}" class="nazvanie">{$value ['name']}</a>
+                <img src="{$value['url_img']}" class="img_product">
+                <a href="./single_product.php?product={$value['id']}" class="nazvanie">{$value['name']}</a>
                 <p class="cena">{$value['price']} руб./кг</p>
                 </div>
     doc;
-};
-?>
+            };
+            ?>
 
             <!-- <div class='product'>
                 <img src="./img/Shop/product-5-187x155.png" class="img_product">
@@ -94,7 +90,7 @@ foreach ($data->fetchAll(PDO::FETCH_ASSOC) as $key => $value){
     <?php
     require_once('./podval.php');
     ?>
-   
+
 </body>
 
 </html>

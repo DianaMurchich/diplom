@@ -191,3 +191,10 @@ input[type=number] {
     color: #151515;
     padding-top: 20px;
 }
+
+.number1{
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+}
