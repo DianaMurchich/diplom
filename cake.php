@@ -23,71 +23,71 @@
     <div class="fon">
         <div class="poz">
             <div class="zag">Вкусные</div>
-            <h3 class="zag2">cakes for you торты для вашего</h3>
-            <p class="pzag">Sweet Bakery offers the best Сладкая пекарня предлагает самое лучшее<br> cakes and sweets for you. торты и сладости для вас.</p>
-            <a href="./shop.php"><button class="btn2">shop now</button></a>
+            <h3 class="zag2">торты для вашего</h3>
+            <p class="pzag">Сладкая пекарня предлагает самое лучшее<br> cakes and sweets for you. торты и сладости для вас.</p>
+            <a href="./shop.php"><button class="btn2">купить сейчас</button></a>
         </div>
     </div>
     <div class="fon2">
         <div class="otst">
-            <h2 class="zag">Only Fresh Cakes</h2>
-            <p class="pzagol">All of our products are made from scratch using family recipes with only the highest quality ingredients. We bake and sell fresh daily to ensure only the best products are sold to our customers.
+            <h2 class="zag">Только Свежие Пирожные</h2>
+            <p class="pzagol">Все наши продукты производятся с нуля по семейным рецептам только из самых качественных ингредиентов. Мы выпекаем и продаем свежие продукты ежедневно, чтобы гарантировать, что только лучшие продукты продаются нашим клиентам.
             </p>
             <a class="strel" href="./shop.php"><img src="./img/strel.png" class="strela"> </a>
         </div>
     </div>
-    <h2 class="sagolovok">what we offer</h2>
+    <h2 class="sagolovok">что мы предлагаем</h2>
     <div class="offer">
         <div class="vbn"><img src="img/x2.jpg" class="rama">
-            <h3 class="txt">Party Cupcakes</h3>
-            <p class="we_offer">We provide a variety of cupcakes for any party made with high-quality natural ingredients and no preservatives.
+            <h3 class="txt">Праздничные Кексы</h3>
+            <p class="we_offer">Мы предлагаем разнообразные кексы для любой вечеринки, приготовленные из высококачественных натуральных ингредиентов и без консервантов.
             </p>
-            <a href="" class="sslk">read more</a>
+            <a href="" class="sslk">подробнее</a>
         </div>
         <div class="vbn"><img src="img/x3.jpg" class="rama">
-            <h3 class="txt">Choco cakes</h3>
-            <p class="we_offer">Nothing tastes better than a chocolate cake with a variety of flavors, which is always available at our bakery.</p>
-            <a href="" class="sslk">read more</a>
+            <h3 class="txt">Шоколадные пирожные</h3>
+            <p class="we_offer">Нет ничего вкуснее шоколадного торта с разнообразными вкусами, который всегда есть в нашей пекарне.</p>
+            <a href="" class="sslk">подробнее</a>
         </div>
         <div class="vbn"><img src="img/x4.jpg" class="rama">
-            <h3 class="txt">Wedding cakes</h3>
-            <p class="we_offer">Want to make your wedding unforgettable? Then you need to order a unique wedding cake at Sweet Bakery!</p>
-            <a href="" class="sslk">read more</a>
+            <h3 class="txt">Свадебные торты</h3>
+            <p class="we_offer">Хотите сделать свою свадьбу незабываемой? Тогда вам нужно заказать уникальный свадебный торт в Сладкой Пекарне! </p>
+            <a href="" class="sslk">подробнее</a>
         </div>
     </div>
     <div class="fon3">
-        <h2 class="raz_txt">new products</h2>
+        <h2 class="raz_txt">новые продукты</h2>
         <div class="product">
             <div class="fon_product">
                 <p class="corob"><img src="img/product.png"></p>
-                <h3>chocolate truffles</h3>
-                <p>$23.00</p>
+                <h3>шоколадные трюфели</h3>
+                <p>23.00 </p>
             </div>
             <div class="fon_product">
                 <p class="corob"><img src="img/product2.png"></p>
-                <h3>chocolate pudding</h3>
-                <p>$25.00</p>
+                <h3>шоколадный пудинг</h3>
+                <p>25.00</p>
             </div>
             <div class="fon_product">
                 <p class="corob"><img src="img/product3.png"></p>
-                <h3>dark chocolate cake</h3>
-                <p>$15.00</p>
+                <h3>торт из темного шоколада</h3>
+                <p>15.00</p>
             </div>
             <div class="fon_product">
                 <p class="corob"><img src="img/product4.png"></p>
-                <h3>chocolate cookies</h3>
-                <p>$12.00</p>
+                <h3>шоколадное печенье</h3>
+                <p>12.00</p>
             </div>
         </div>
     </div>
-    <h2 class="raz_txt">why choose us</h2>
+    <h2 class="raz_txt">почему вы выбрали именно нас</h2>
     <div class="section">
 
-        <div class="about_us">Quality Products</div>
-        <div class="us">We guarantee the quality of all the cakes we provide as they are baked using the freshest ingredients.
+        <div class="about_us">Качественная Продукция</div>
+        <div class="us">Мы гарантируем качество всех тортов, которые мы предоставляем, так как они выпекаются с использованием самых свежих ингредиентов.
         </div>
-        <div class="about_us2">free delivery</div>
-        <div class="us2">All orders submitted by our US clients are delivered for free throughout the United States.
+        <div class="about_us2">бесплатная доставка</div>
+        <div class="us2">Все заказы, представленные нашими американскими клиентами, доставляются бесплатно по всей территории Соединенных Штатов.
         </div>
 
 
@@ -99,32 +99,32 @@
         <div class="logo3"><img src="img/chamomile.png" class="raz_img"></div>
         <div class="logo4"><img src="img/card.png" class="raz_img"></div>
 
-        <div class="about_us3">catering service</div>
-        <div class="us3">Our bakery also provides an outstanding catering service for events and special occasions.
+        <div class="about_us3">кейтеринговое обслуживание</div>
+        <div class="us3">Наша пекарня также предоставляет выдающиеся услуги кейтеринга для проведения мероприятий и особых случаев.
         </div>
-        <div class="about_us4">Online payment</div>
-        <div class="us4">We accept all kinds of online payments including Visa, MasterCard, American Express credit cards.
+        <div class="about_us4">Онлайн оплата</div>
+        <div class="us4">Мы принимаем все виды онлайн-платежей, включая кредитные карты Visa, MasterCard, American Express.
         </div>
     </div>
     <div class="fon4">
         <div class="unit">
-            <h1 class="stil_txt">summer sale</h1>
+            <h1 class="stil_txt">летняя распродажа</h1>
             <span class="poziciy">
                 <p class="proc">-20%</p>
-                <p class="pred">on all Cakes</p>
+                <p class="pred">на все Торты</p>
             </span>
-            <p class="pred_zag">Purchase our tasty cakes and sweets for your next event or family<br>dinner at our online shop and save more money than anywhere.</p>
-            <a href="./shop.html"><button class="btn2">shop now</button></a>
+            <p class="pred_zag">Купите наши вкусные торты и сладости для вашего следующего мероприятия или семейного ужина в нашем интернет-магазине и сэкономьте больше денег, чем где-либо еще.</p>
+            <a href="./shop.html"><button class="btn2">купить сейчас</button></a>
         </div>
     </div>
-    <h2 class="raz_txt">About us</h2>
+    <h2 class="raz_txt">О нас</h2>
     <div class="about">
         <img src="img/about.jpg">
         <div class="about_border">
             <div class="box">
-                <h3>providing quality baked<br> goods for all customers</h3>
-                <p>Our mission is to create a bakery that makes the best quality<br> baked goods on site from scratch, and where both employees<br> and customers would feel comfortable.</p>
-                <a href="">read more</a>
+                <h3>обеспечение качественной выпечки<br>товары для всех клиентов</h3>
+                <p>Наша миссия состоит в том, чтобы создать пекарню, которая делает самое лучшее качество<br> выпечка на месте с нуля, и где оба сотрудника<br> и клиенты будут чувствовать себя комфортно.</p>
+                <a href="">подробнее</a>
                 <!-- <h3>Ensuring the Best Atmosphere for Everyone</h3>
                 <p>We see the most important part of our business in ensuring the happiness of our staff and the satisfaction of our clients by creating a welcoming and caring atmosphere.</p>
                 <h3>Serving only the freshest baked goods for you</h3>
@@ -139,27 +139,27 @@
 
     </div>
     <div class="fon5">
-        <h2 class="raz_txt">latest news</h2>
+        <h2 class="raz_txt">последние новости</h2>
         <div class="novosti">
             <div class="cake">
                 <div class="icheika">
-                    <p class="data">August 9, 2020</p>
-                    <p class="punkt">How to Pipe a Fluffy Frosting Border on a Cake</p>
+                    <p class="data">9 Августа 2020</p>
+                    <p class="punkt">Как сделать пушистую глазурь на торте</p>
                 </div>
             </div>
             <div class="cakes">
                 <div class="icheika2">
                     <img src="./img/novosti2.jpg">
                     <div class="razdel">
-                        <p class="data2">August 9, 2020</p>
-                        <p class="punkt2">Recipe of the Day: Pumpkin Spice Latte Cake</p>
+                        <p class="data2">9 Августа 2020</p>
+                        <p class="punkt2">Рецепт дня: Тыквенный Пряный Латте-торт</p>
                     </div>
                 </div>
                 <div class="icheika2">
                     <img src="./img/novosti3.jpg">
                     <div class="razdel">
-                        <p class="data2">August 9, 2020</p>
-                        <p class="punkt2">Top 5 Tips for Successful Cake Baking</p>
+                        <p class="data2">9 Августа 2020</p>
+                        <p class="punkt2">Топ-5 Советов по успешной выпечке торта</p>
                     </div>
                 </div>
             </div>

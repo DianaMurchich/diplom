@@ -3,28 +3,28 @@
             <div class="blok"><span class="fa fa-map-marker fa-3x"></span><a href="">523 Sylvan Ave<br> Mountain
                     View, CA
                     94041 USA</a></div>
-            <div class="blok2">Sweet<img src="./img/cake.jpg" class="tr">Bakery</div>
+            <div class="blok2">Сладкая<img src="./img/cake.jpg" class="tr">Пекарня</div>
             <div class="blok3">
-                <form><button class="btn"><span class="fa fa-envelope-o"></span>Get in touch</button></form>
+                <form><button class="btn"><span class="fa fa-envelope-o"></span>Связаться</button></form>
             </div>
         </div>
     </div>
     <div class="nav_menu">
         <ul class="topmenu">
             <div class="pod_cont">
-                <li class="show"><a href="./cake.php">HOME</a></li>
-                <li class="show"><a href="./gallery.php">GALLERY</a>
+                <li class="show"><a href="./cake.php">ГЛАВНАЯ</a></li>
+                <li class="show"><a href="./gallery.php">ГАЛЛЕРЕЯ</a>
                 </li>
-                <li class="show"><a href="./shop.php">SHOP</a>
+                <li class="show"><a href="./shop.php">МАГАЗИН</a>
                     <ul class="submenu">
-                        <li><a href="./shop.php">shop</a></li>
-                        <li><a href="./cart.php">cart</a></li>
+                        <li><a href="./shop.php">МАГАЗИН</a></li>
+                        <li><a href="./cart.php">ОФОРМИТЬ ЗАКАЗ</a></li>
                     </ul>
                 </li>
-                <li class="show"><a href="./blog.php">BLOG</a>
+                <li class="show"><a href="./blog.php">БЛОГ</a>
                     <ul class="submenu">
-                        <li><a href="./blog.php">blog</a></li>
-                        <li><a href="./blog_post.php">blog post</a></li>
+                        <li><a href="./blog.php">БЛОГ</a></li>
+                        <li><a href="./blog_post.php">БЛОГ ПОСТ</a></li>
                     </ul>
                 </li>
                 <!-- <li class="show"><a href="">PAGES</a>
@@ -60,7 +60,7 @@
                         </li>
                     </ul>
                 </li> -->
-                <li class="show"><a href="./contact_us.php">CONTACT US</a></li>
+                <li class="show"><a href="./contact_us.php">СВЯЗАТЬСЯ С НАМИ</a></li>
             </div>
             <div class="pod_cont2">
                 <img src="./img/lup.png" class="poisk">
