@@ -68,14 +68,20 @@ $result = $data->fetch(PDO::FETCH_ASSOC);
                 </li> -->
             </ul>
             <div>
-                <div>
-                    <input type="text" name="number_of_kilograms" value="2" id="number_of_kilograms" >
-                    <div>
-                        <button class="number1">+</button>
-                        <button class="number1">-</button>
+                <div class="num_kil">
+                    <input type="text" name="number_of_kilograms" value="2" id="number_of_kilograms" class="vvod">
+                    <div class="schet">
+                        <button class="number1"></button>
+                        <button class="number1" disabled></button>
                     </div>
                 </div>
-                <button class="btn2">офермить заказ</button>
+                <div>
+                    
+                </div>
+                <div class="btn_cart">
+                    <button class="btn2">заказать</button>
+                    <button class="btn2">оформить заказ</button>
+                </div>
             </div>
         </div>
     </div>
